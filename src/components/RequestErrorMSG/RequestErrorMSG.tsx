@@ -6,7 +6,7 @@ interface RequestErrorMSGProps {
   title: string;
 }
 
-export const Request: FC<RequestErrorMSGProps> = ({
+export const RequestErrorMSG: FC<RequestErrorMSGProps> = ({
 	requestError,
 	title,
 }) => {
