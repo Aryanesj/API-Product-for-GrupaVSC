@@ -35,7 +35,7 @@ export const PostItemForm: FC<PostItemFormProps> = ({
   };
 
   return (
-    <div className="border rounded p-2 d-flex flex-column gap-2">
+    <div className="border rounded p-2 d-flex flex-column gap-2 border-info">
       <div className="justify-content-between d-flex">
         [id={postListItem.id}]
         <div className={`d-flex gap-2 ${styles.btnsWrap}`}>
@@ -71,7 +71,7 @@ export const PostItemForm: FC<PostItemFormProps> = ({
               Hide comments
             </button>
           </div>
-          <CommentListForm id={postListItem.id} />
+          <CommentListForm postId={postListItem.id} />
         </>
       ) : (
         <div className="d-flex justify-content-end">

@@ -3,7 +3,7 @@ import { Router } from '../router';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { postListSlice } from '../features/PostList/postListSlice';
 import { RequestErrorMSG } from '../components/RequestErrorMSG';
-import { commentListSlice } from '../features/commentList/commentListSlice';
+import { commentListSlice } from '../features/commentList/commentListSlice/index';
 import { Spinner } from './Spinner';
 
 export const App: FC = () => {
