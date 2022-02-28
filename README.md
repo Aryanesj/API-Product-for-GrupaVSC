@@ -11,3 +11,5 @@ Przy użyciu API zbuduj responsywną stronę internetową
 4) Fajnie by było, gdybyś skorzystał z Bootstrap i SASS.
 5) Dodatkowym atutem będzie użycie ReactJS lub Vue.js. 
 6) Nie skupiaj się na treści komentarzy czy postów, tylko na warstwie wizualnej.
+
+Preview deploy: https://eloquent-ramanujan-0a1f1c.netlify.app/post-list
